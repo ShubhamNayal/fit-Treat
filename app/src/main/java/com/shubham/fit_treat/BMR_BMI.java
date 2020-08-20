@@ -52,6 +52,7 @@ public class BMR_BMI extends AppCompatActivity {
                 }
                 BMR_result.setText(String.valueOf(Bmr)+" cals\n\nare your daily maintenance calories ");
 
+
                 //               BMI = weight (kg) / [height (m)]2
 
                 Bmi=(w*10000)/(h*h);
