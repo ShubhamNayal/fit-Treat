@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomTheme" parent="@style/_CustomTheme" />
+
+    <style name="_CustomTheme" parent="android:Theme.Holo.Light">
+
+        <item name="android:buttonStyle">@style/ButtonCustomTheme</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonCustomTheme</item>
+
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerCustomTheme</item>
+
+        <item name="android:seekBarStyle">@style/SeekBarCustomTheme</item>
+
+        <item name="android:editTextStyle">@style/EditTextCustomTheme</item>
+
+    </style>
+
+</resources>

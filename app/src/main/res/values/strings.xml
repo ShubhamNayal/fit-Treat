@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">FitTreat</string>
+    <string name="bmi">BMI </string>
+    <string name="banner_ad_unit_id">ca-app-pub-5594132048305549/7069605513</string>
+
+    <!--activity_main strings listed here-->
+    <string name="presets">Select a Preset</string>
+    <string name="preset_button_highCarbs">60/25/15\nHigh Carbs</string>
+    <string name="preset_button_moderate">50/30/20\nModerate</string>
+    <string name="preset_button_lowCarbs">20/40/40\nLow Carbs</string>
+    <string name="customize">Or Customize...</string>
+    <string name="carbohydrates_label">Carbohydrates:</string>
+    <string name="protein_label">Proteins:</string>
+    <string name="fat_label">Fats:</string>
+    <string name="initialize_seekbar_percent">0%</string>
+    <string name="daily_calories_text">Daily Calories:</string>
+    <string name="dont_know_button">Don\'t Know?</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="zero">0</string>
+
+    <!--find_calories.xml strings listed here-->
+    <string name="imperial_US">Imperial (US)</string>
+    <string name="metric">Metric</string>
+    <string name="gender_label">Gender</string>
+    <string name="age_label">Age (Years)</string>
+    <string name="weight_label_us">Weight (lbs)</string>
+    <string name="weight_label_metric">Weight (kgs)</string>
+    <string name="height_label_us">Height (in.)</string>
+    <string name="height_label_metric">Height (cm.)</string>
+    <string name="activity_level_label">Activity Level</string>
+    <string name="your_goals_label">You want to...</string>
+    <string name="recommended_label">Recommended Calories</string>
+    <string name="use_this_value_button">Use this\n value</string>
+    <string name="minimum_calc">(Only calculates a minimum of 1000 calories.)</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="activity_level_array">
+        <item>Little to no exercise</item>
+        <item>Light exercise (1–3 days per week)</item>
+        <item>Moderate exercise (3–5 days per week)</item>
+        <item>Heavy exercise (6–7 days per week)</item>
+        <item>Very heavy exercise (twice per day, heavy)</item>
+    </string-array>
+    <string-array name="your_goals_array">
+        <item>Lose 1 Pound/Kg per week</item>
+        <item>Lose .5 Pound/Kg per week</item>
+        <item>Maintenence Calories</item>
+        <item>Gain .5 Pound/Kg per week</item>
+        <item>Gain 1 Pound/Kg per week</item>
+    </string-array>
+</resources>
+

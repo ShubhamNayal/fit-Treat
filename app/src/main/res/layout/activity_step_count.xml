@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".StepCountActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_steps"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:text="Number of steps:0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Start Pedometer"
+        />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+
+        android:paddingRight="25dp"
+        android:text="Stop Pedometer"
+        />
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+
+        android:paddingLeft="23dp"
+        android:paddingRight="23dp"
+        android:layout_height="wrap_content"
+        android:text="Reset Pedometer"
+        />
+
+
+</LinearLayout>

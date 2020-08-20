@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/stepCount"
+        android:title="Step Counter"
+        android:icon="@drawable/step_counter"
+        />
+    <item
+        android:id="@+id/bmi_bmr"
+        android:title="BMI &amp; BMR"
+        android:icon="@drawable/bmi_bmr"
+        />
+
+
+</menu>
